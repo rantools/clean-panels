@@ -1,1 +1,1 @@
-Current Version: 4.0.6 Clean Panels Custom Message: ]
+Current Version: 4.0.7 Clean Panels Custom Message: ]
