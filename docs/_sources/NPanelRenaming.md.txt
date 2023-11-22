@@ -1,6 +1,6 @@
 # N-Panel Renaming
 
-With Clean Panels, you have the flexibility to rename tabs in the N-Panel to suit your preferences. Whether you prefer a shorter name or a complete change, you can easily achieve it.
+With Clean Panels, you have the flexibility to rename tabs in the N-Panel to suit your preferences. Whether you prefer a shorter name or a complete change, you can easily achieve it. 
 
 **Getting Started**
 

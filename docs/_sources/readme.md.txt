@@ -5,7 +5,7 @@
 
 ## V5.0.0:
 **Enhanced Image and Node Space Support:**
-Now, Clean Panels offers Filtering and Focused Panel support for both Image/UV and Node space, ensuring a seamless experience in your creative workflow.
+Now, Clean Panels offers Filtering and Focused Panel support for both Image/UV and Node space, ensuring a seamless experience in your creative workflow. 
 ![2023-11-20_17-22-37](/assets/2023-11-20_17-22-37.gif)
 ![2023-11-20_17-20-36](/assets/2023-11-20_17-20-36.gif)
 

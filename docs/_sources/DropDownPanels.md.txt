@@ -1,2 +1,29 @@
-# Drop Down Panels
+# DropDown Panels
 
+Dropdowns offer an alternative method to access your tabs by pinning them to the header. 
+
+**Using DropDown Panels**
+
+Creating categories follows a process similar to what's explained in the [N-Panel filtering section](NPanelFiltering.md#creating-categories).
+![DropDownSettings](/assets/DropDownSettings.png)
+
+Once your categories are configured, you will find them in this menu within the viewport.
+![Dropdownmenu](/assets/Dropdownmenu.png)
+
+Select the category you want to view in the header, and all the addons in that category will appear in the header above.
+Choose the one you want to use, and it will display in a popup.
+![DropDownsPanel](/assets/DropDownsPanel.gif)
+
+**Show in Toolbar**
+
+Enable this option if you want to see the dropdowns in the same row as the filter buttons. This can be useful if your header is already filled.
+![ShowInToolbar](/assets/ShowInToolbar.png)
+
+**Dropdown Width**
+
+Adjust the width of the dropdown popup. Most users won't need to change this. Only do so if your panels appear squished.
+
+**Show Dropdown Search Button**
+
+This is a highly useful feature. It adds a search button before the dropdowns, allowing you to search for any addon easily.
+![Dropdownsearch](/assets/Dropdownsearch.gif)

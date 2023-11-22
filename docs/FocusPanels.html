@@ -19,7 +19,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Pro Features" href="ProFeatures.html" /> 
+    <link rel="next" title="Pie Panels" href="PiePanels.html" />
+    <link rel="prev" title="N-Panel Filtering" href="NPanelFiltering.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -41,15 +42,19 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul class="current">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="readme.html">Changelog</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PiePanels.html">Pie Panels</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DropDownPanels.html">Drop Down Panels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="NPanelFiltering.html">N-Panel Filtering</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Focus Panels</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-it-works">How It Works?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="PiePanels.html">Pie Panels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DropDownPanels.html">DropDown Panels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="NPanelReordering.html">N-Panel ReOrdering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="NPanelRenaming.html">N-Panel Renaming</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ProFeatures.html">Pro Features</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Focus Panels</a></li>
 </ul>
 
         </div>
@@ -78,13 +83,31 @@
              
   <section id="focus-panels">
 <h1>Focus Panels<a class="headerlink" href="#focus-panels" title="Link to this heading"></a></h1>
+<p>The Focus Panel stands out as one of Clean Panel’s most beloved features, allowing you to open any tab in the N-Panel through a popup list, eliminating the need to navigate the rotated text in the N-Panel.</p>
+<p><strong>Using Focus Panel</strong></p>
+<p>You don’t need to set anything up to start using the Focus Panel. Simply press the shortcut key (default: ALT+J), and a list with all your tabs will appear. Choose the tab you want to view in the N-Panel. If it’s your first time opening a tab from the Focus Panel, you’ll need to manually select the ‘Focused’ tab in the N-Panel, as explained in the <a class="reference internal" href="#how-it-works"><span class="xref myst">How It Works</span></a> section below. Once ‘Focused’ is your active tab, you can open any other tab using the Focus Panel list.</p>
+<p><img alt="FPUse" src="_images/FPUse.gif" /></p>
+<p><strong>Focus Panel Categories</strong></p>
+<p>If you have too many tabs, making it challenging to find what you’re looking for even from the Focus Panel list, you can organize them into categories.</p>
+<p>Creating categories follows a process similar to what’s explained in the <a class="reference internal" href="NPanelFiltering.html#creating-categories"><span class="std std-ref">N-Panel filtering section</span></a>.
+<img alt="FPCategories" src="_images/FPCategories.png" /></p>
+<p>Once you have the categories set up, your Focus Panel list will be organized based on these categories.
+<img alt="FPOrganised" src="_images/FPOrganised.png" /></p>
+<p><strong>Show Only Unfiltered Panels in the Focus Panel List</strong></p>
+<p>By default, the Focus Panel list shows all available tabs. If you want the Focus Panel list to synchronize with the N-Panel Filtering and only display tabs available in the selected Filter Category (visible in the N-Panel), you can enable this option.</p>
+<p><img alt="ShowOnlyUnFiltered" src="_images/ShowOnlyUnFiltered.png" /></p>
+<section id="how-it-works">
+<h2>How It Works?<a class="headerlink" href="#how-it-works" title="Link to this heading"></a></h2>
+<p>While you might expect it to be straightforward, Blender’s API doesn’t allow changing the active tab via scripting. So, how does Clean Panels achieve this? Instead of directly switching the active tab, Clean Panels adds a new custom tab called ‘Focused’ and, with some code magic, dynamically changes its content based on the tab selected from the list. This is why you need to manually select the ‘Focused’ tab first before using the Focus Panel list.</p>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="ProFeatures.html" class="btn btn-neutral float-left" title="Pro Features" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="NPanelFiltering.html" class="btn btn-neutral float-left" title="N-Panel Filtering" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="PiePanels.html" class="btn btn-neutral float-right" title="Pie Panels" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

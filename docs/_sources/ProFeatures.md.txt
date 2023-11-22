@@ -1,6 +1,6 @@
 # Pro Features
 
-Discover the latest Pro features by navigating to the addon preferences.
+Discover the latest Pro features by navigating to the addon preferences. 
 
 ![ProFeatures](/assets/ProFeatures.png)
 
