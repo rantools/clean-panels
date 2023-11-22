@@ -8,14 +8,13 @@ Welcome to Clean Panels's documentation!
 
 .. toctree::
    readme.md
-   test.md
    PiePanels.md
    DropDownPanels.md
    NPanelFiltering.md
+   NPanelReordering.md
    NPanelRenaming.md
    ProFeatures.md
    FocusPanels.md
-   NPanelReordering.md
    :maxdepth: 2
    :caption: Contents:
 

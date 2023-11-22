@@ -1,1 +1,31 @@
-# Filtering
+# N-Panel ReOrdering
+
+## Reordering the N-Panel
+
+Clean Panels provides you with the flexibility to rearrange your tabs in the N-Panel according to your preferences.
+
+To get started, follow these steps:
+1. Enable 'Show Advanced Options' in the addon preferences.
+2. Once activated, two new sections will appear: one for N-Panel Reordering and another for N-Panel Renaming.
+3. Navigate to the Reordering section, where you'll find a list of addons.
+4. Next to the list, you'll find two arrows (up and down) that allow you to move the selected tab upward or downward.
+5. Press "Confirm" to apply your changes, or simply restart Blender.
+
+![ReOrdering](/assets/ReOrdering.gif)
+
+## Sorting per category
+
+Enable this option to sort the N-Panel based on the order of addons in your N-Panel Filtering categories.
+![SPC](/assets/SPC.png)
+
+You can sort the addons in your filtering categories by using the Reordering button.
+![OrderPerCategory](/assets/OrderPerCategory.gif)
+
+## Proper Ordering button
+
+```Important Note: If you have Blender installed on your C drive, you will need to run it as an administrator (only once) to press this button.```
+
+If your panels are out of order when using filtering or you are encountering 'Children-Parent Panel' errors in the console, you can fix them by pressing this button. This action injects a small piece of code into Blender's addon_utils module, allowing CP to track the order in which the panels are registered on boot. CP can then use that information to register the panels in the correct order.
+![ProperOrdering](/assets/ProperOrdering.png)
+
+
