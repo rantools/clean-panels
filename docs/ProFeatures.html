@@ -42,14 +42,20 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul class="current">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="readme.html">Changelog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="PiePanels.html">Pie Panels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DropDownPanels.html">Drop Down Panels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="NPanelFiltering.html">N-Panel Filtering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="NPanelReordering.html">N-Panel ReOrdering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="NPanelRenaming.html">N-Panel Renaming</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Pro Features</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Pro Features</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#using-delayed-addon-loading">Using Delayed Addon Loading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#disabling-delayed-addon-loading">Disabling Delayed Addon Loading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#export-addons-list">Export Addons List</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="FocusPanels.html">Focus Panels</a></li>
 </ul>
 
@@ -79,6 +85,41 @@
              
   <section id="pro-features">
 <h1>Pro Features<a class="headerlink" href="#pro-features" title="Link to this heading"></a></h1>
+<p>Discover the latest Pro features by navigating to the addon preferences.</p>
+<p><img alt="ProFeatures" src="_images/ProFeatures.png" /></p>
+<section id="using-delayed-addon-loading">
+<h2>Using Delayed Addon Loading<a class="headerlink" href="#using-delayed-addon-loading" title="Link to this heading"></a></h2>
+<p>If Blender is installed on your main drive (usually C), follow these steps to enable Delayed Addon Loading:</p>
+<ol class="arabic simple">
+<li><p>Start Blender with Administrator rights (Right-click &gt; Run as Administrator).</p></li>
+<li><p>In addon preferences, scroll down to locate the Pro Features section.</p></li>
+<li><p>Enable ‘Delayed Addon Loading.’</p></li>
+<li><p>A new field will appear below it. Press the ‘+’ to add the add-ons you want to load on boot. A popup window will display a list of currently enabled addons. Select the ones you want to load on boot and click OK. Leave it empty if you only want to load inbuilt add-ons (and Clean Panels, of course) on boot.</p></li>
+</ol>
+<p><img alt="DelayedAddonList" src="_images/DelayedAddonList.png" /></p>
+<p><img alt="DelayedListPopup" src="_images/DelayedListPopup.png" /></p>
+<p>Once done, the next time you start Blender, it will load much faster, with only the selected addons loaded.</p>
+<p>To load your other addons, press the ‘Load Addons’ button in the viewport.</p>
+<p><img alt="LoadAddons" src="_images/LoadAddons.png" /></p>
+<p><strong>Important Note:</strong> If you update your Blender version, you will need to click the enable button again.</p>
+</section>
+<section id="disabling-delayed-addon-loading">
+<h2>Disabling Delayed Addon Loading<a class="headerlink" href="#disabling-delayed-addon-loading" title="Link to this heading"></a></h2>
+<p>Start Blender with admin rights as described above.
+Press the button again (it should say “Disable Delayed loading of addons’ this time since it’s already enabled).
+Restart Blender.</p>
+</section>
+<section id="export-addons-list">
+<h2>Export Addons List<a class="headerlink" href="#export-addons-list" title="Link to this heading"></a></h2>
+<p><img alt="EAL" src="_images/EAL.png" /></p>
+<p>If you would like to export a list of all your enabled as well as disabled addons, you can use this function.</p>
+<ol class="arabic simple">
+<li><p>Click this button.</p></li>
+<li><p>Type in a name for the exported list.</p></li>
+<li><p>Select the type on the right side (text or pdf).</p></li>
+</ol>
+<p>Note: Exporting as a pdf requires an external Python library to be downloaded. So you might have to start Blender with admin rights to use it (if Blender is installed in the main drive).</p>
+</section>
 </section>
 
 

@@ -1,8 +1,9 @@
 # N-Panel ReOrdering
 
+Clean Panels provides you with the flexibility to rearrange your tabs in the N-Panel according to your preferences.
+
 ## Reordering the N-Panel
 
-Clean Panels provides you with the flexibility to rearrange your tabs in the N-Panel according to your preferences.
 
 To get started, follow these steps:
 1. Enable 'Show Advanced Options' in the addon preferences.
