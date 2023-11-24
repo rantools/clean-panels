@@ -23,7 +23,10 @@ To load your other addons, press the 'Load Addons' button in the viewport.
 
 ![LoadAddons](/assets/LoadAddons.png)
 
-**Important Note:** If you update your Blender version, you will need to click the enable button again.
+```{important}
+If you update your Blender version, you will need to click the enable button again.
+```
+
 
 ## Disabling Delayed Addon Loading
 

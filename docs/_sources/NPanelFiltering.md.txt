@@ -22,7 +22,9 @@ To begin filtering, activate the filter icon. Upon enabling it, you'll see icons
 
 Click any of these icons to enable them. Addons associated with the enabled categories will be displayed in the N-Panel, while others will be hidden. 
 
-```Tip: You can enable multiple categories by holding down shift.```
+```{tip} 
+You can enable multiple categories by holding down shift.
+```
 
 ![Filtering in Action](/assets/UseFilterCategories.gif)
 

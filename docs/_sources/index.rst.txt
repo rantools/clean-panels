@@ -15,6 +15,7 @@ Welcome to Clean Panels's documentation!
    NPanelReordering.md
    NPanelRenaming.md
    ProFeatures.md
+   Preferences.md
    :maxdepth: 2
    :caption: Contents:
 
