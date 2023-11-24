@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>&lt;no title&gt; &mdash; Clean Panels 5.0.0 documentation</title>
+  <title>Preferences &mdash; Clean Panels 5.0.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -18,7 +18,8 @@
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Pro Features" href="ProFeatures.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -41,15 +42,28 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="readme.html">Changelog</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PiePanels.html">Pie Panels</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DropDownPanels.html">DropDown Panels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="NPanelFiltering.html">N-Panel Filtering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="FocusPanels.html">Focus Panels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PiePanels.html">Pie Panels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DropDownPanels.html">DropDown Panels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="NPanelReordering.html">N-Panel ReOrdering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="NPanelRenaming.html">N-Panel Renaming</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ProFeatures.html">Pro Features</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Preferences</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#clean-up-method-for-n-panel">Clean Up method for N-Panel:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sort-focus-panel-list-based-on-clicks">Sort Focus Panel list based on clicks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#use-filtering-per-workspace">Use Filtering Per Workspace</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#remove-holder-tab">Remove Holder Tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#show-delete-button-in-the-quick-settings-panel">Show Delete button in the Quick Settings Panel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#use-search-instead-of-popup-for-adding-panels-addons-to-categories">Use Search instead of Popup for adding Panels/Addons to categories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#filter-internal-tabs">Filter Internal Tabs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#experimental-features">Experimental Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#use-sticky-popups">Use Sticky Popups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enable-disable-addons">Enable/Disable Addons</a></li>
+</ul>
+</li>
 </ul>
 
         </div>
@@ -66,7 +80,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">&lt;no title&gt;</li>
+      <li class="breadcrumb-item active">Preferences</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/Preferences.md.txt" rel="nofollow"> View page source</a>
       </li>
@@ -76,11 +90,70 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  
+  <section id="preferences">
+<h1>Preferences<a class="headerlink" href="#preferences" title="Link to this heading"></a></h1>
+<p>This section provides an overview of the options available in the addon preferences.</p>
+<p><img alt="PRefs" src="_images/PRefs.png" /></p>
+<section id="clean-up-method-for-n-panel">
+<h2>Clean Up method for N-Panel:<a class="headerlink" href="#clean-up-method-for-n-panel" title="Link to this heading"></a></h2>
+<p>Blender’s has an inbuilt way to enable/disable addons for the current workspace using Workspace ‘Filter addons’ but for CP it is an outdated method, and we don’t recommend using it. Most newer features, like Focus Panels, do not work with this method. Therefore, it is advised to use the N-Panel Filtering method.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This method will be removed in the next version.</p>
+</div>
+</section>
+<section id="sort-focus-panel-list-based-on-clicks">
+<h2>Sort Focus Panel list based on clicks<a class="headerlink" href="#sort-focus-panel-list-based-on-clicks" title="Link to this heading"></a></h2>
+<p>By default, the Focus Panel list is sorted alphabetically, or if you are using Focus Panel Categories, they will be sorted by the order given in those categories. Enable this option if you want your Focus Panel list to be sorted based on the panels you use most often.</p>
+</section>
+<section id="use-filtering-per-workspace">
+<h2>Use Filtering Per Workspace<a class="headerlink" href="#use-filtering-per-workspace" title="Link to this heading"></a></h2>
+<p>Enable this option if you want different sets of filter categories enabled across different workspaces. For example, you could have your material categories enabled in the shading workspace and your modeling categories enabled in the modeling workspace.</p>
+<p><img alt="FilteringPerWorkspace" src="_images/FilteringPerWorkspace.gif" /></p>
+</section>
+<section id="remove-holder-tab">
+<h2>Remove Holder Tab<a class="headerlink" href="#remove-holder-tab" title="Link to this heading"></a></h2>
+<p>You don’t need to disable this. If you disable it, all your filtered-out panels will be stored in a ‘DUMP’ tab available in the N-Panel. Keeping it enabled ensures you won’t have to worry about it.</p>
+</section>
+<section id="show-delete-button-in-the-quick-settings-panel">
+<h2>Show Delete button in the Quick Settings Panel<a class="headerlink" href="#show-delete-button-in-the-quick-settings-panel" title="Link to this heading"></a></h2>
+<p>Enable this if you want to see delete buttons in the Quick Settings Panel (the Gear icon in the viewport).
+<img alt="DeleteButtons" src="_images/DeleteButtons.png" /></p>
+</section>
+<section id="use-search-instead-of-popup-for-adding-panels-addons-to-categories">
+<h2>Use Search instead of Popup for adding Panels/Addons to categories<a class="headerlink" href="#use-search-instead-of-popup-for-adding-panels-addons-to-categories" title="Link to this heading"></a></h2>
+<p>If you have many addons and the checkbox popup can’t fit them, you can either enlarge your preferences window or revert to the old style of adding Panels/Addons to categories, which is a search popup.</p>
+<p><img alt="SearchPopup" src="_images/SearchPopup.gif" /></p>
+</section>
+<section id="filter-internal-tabs">
+<h2>Filter Internal Tabs<a class="headerlink" href="#filter-internal-tabs" title="Link to this heading"></a></h2>
+<p>Blender has some internal tabs that aren’t part of any addons. It was not possible to filter them before V5.0, but now it is. It’s off by default, but if you want to filter them out, you can enable this. When adding addons to your N-Panel filtering Categories, you will see them listed with ‘(Tab)’ in their name.</p>
+<p><img alt="InternalTabs" src="_images/InternalTabs.png" /></p>
+</section>
+<section id="experimental-features">
+<h2>Experimental Features<a class="headerlink" href="#experimental-features" title="Link to this heading"></a></h2>
+<p>This section is planned to be removed in the future, as it is related to the workspace clean-up method.</p>
+</section>
+<section id="use-sticky-popups">
+<h2>Use Sticky Popups<a class="headerlink" href="#use-sticky-popups" title="Link to this heading"></a></h2>
+<p>Enable this if you want your dropdowns and pie panels to stay open until you click outside of them.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It’s currently not possible to keep them open after clicking outside, due to a Blender limitation. If Blender fixes this in the future, we will update it accordingly.</p>
+</div>
+</section>
+<section id="enable-disable-addons">
+<h2>Enable/Disable Addons<a class="headerlink" href="#enable-disable-addons" title="Link to this heading"></a></h2>
+<p>This popup allows you to view all your addons and enable/disable them from one window.</p>
+</section>
+</section>
+
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="ProFeatures.html" class="btn btn-neutral float-left" title="Pro Features" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 
