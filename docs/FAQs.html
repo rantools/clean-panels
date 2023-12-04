@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>N-Panel ReOrdering &mdash; Clean Panels 5.0.0 documentation</title>
+  <title>Frequently Asked Questions &mdash; Clean Panels 5.0.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -19,8 +19,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="N-Panel Renaming" href="NPanelRenaming.html" />
-    <link rel="prev" title="DropDown Panels" href="DropDownPanels.html" /> 
+    <link rel="prev" title="Preferences" href="Preferences.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -49,16 +48,11 @@
 <li class="toctree-l1"><a class="reference internal" href="FocusPanels.html">Focus Panels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="PiePanels.html">Pie Panels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DropDownPanels.html">DropDown Panels</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">N-Panel ReOrdering</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#reordering-the-n-panel">Reordering the N-Panel</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#sorting-per-category">Sorting per category</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#proper-ordering-button">Proper Ordering button</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="NPanelReordering.html">N-Panel ReOrdering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="NPanelRenaming.html">N-Panel Renaming</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ProFeatures.html">Pro Features</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Preferences.html">Preferences</a></li>
-<li class="toctree-l1"><a class="reference internal" href="FAQs.html">Frequently Asked Questions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Frequently Asked Questions</a></li>
 </ul>
 
         </div>
@@ -75,9 +69,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">N-Panel ReOrdering</li>
+      <li class="breadcrumb-item active">Frequently Asked Questions</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/NPanelReordering.md.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/FAQs.md.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -85,45 +79,47 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="n-panel-reordering">
-<h1>N-Panel ReOrdering<a class="headerlink" href="#n-panel-reordering" title="Link to this heading"></a></h1>
-<p>Clean Panels provides you with the flexibility to rearrange your tabs in the N-Panel according to your preferences.</p>
-<section id="reordering-the-n-panel">
-<h2>Reordering the N-Panel<a class="headerlink" href="#reordering-the-n-panel" title="Link to this heading"></a></h2>
-<p>To get started, follow these steps:</p>
-<ol class="arabic simple">
-<li><p>Enable ‘Show Advanced Options’ in the addon preferences.</p></li>
-<li><p>Once activated, two new sections will appear: one for N-Panel Reordering and another for N-Panel Renaming.</p></li>
-<li><p>Navigate to the Reordering section, where you’ll find a list of addons.</p></li>
-<li><p>Next to the list, you’ll find two arrows (up and down) that allow you to move the selected tab upward or downward.</p></li>
-<li><p>Press “Confirm” to apply your changes, or simply restart Blender.</p></li>
-</ol>
-<p><img alt="ReOrdering" src="_images/ReOrdering.gif" /></p>
-</section>
-<section id="sorting-per-category">
-<h2>Sorting per category<a class="headerlink" href="#sorting-per-category" title="Link to this heading"></a></h2>
-<p>Enable this option to sort the N-Panel based on the order of addons in your N-Panel Filtering categories.
-<img alt="SPC" src="_images/SPC.png" /></p>
-<p>You can sort the addons in your filtering categories by using the Reordering button.
-<img alt="OrderPerCategory" src="_images/OrderPerCategory.gif" /></p>
-</section>
-<section id="proper-ordering-button">
-<h2>Proper Ordering button<a class="headerlink" href="#proper-ordering-button" title="Link to this heading"></a></h2>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>If you have Blender installed on your C drive, you will need to run it as an administrator (only once) to press this button.</p>
-</div>
-<p>If your panels are out of order when using filtering or you are encountering ‘Children-Parent Panel’ errors in the console, you can fix them by pressing this button. This action injects a small piece of code into Blender’s addon_utils module, allowing CP to track the order in which the panels are registered on boot. CP can then use that information to register the panels in the correct order.
-<img alt="ProperOrdering" src="_images/ProperOrdering.png" /></p>
-</section>
+  <section id="frequently-asked-questions">
+<h1>Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Link to this heading"></a></h1>
+<details>
+  <summary><b>Q: I don't see the Filtering settings on the top right?</b></summary>
+  By default, the filtering settings are on the left side. You can change it to the right from the quick settings (Gear icon) or the addon preferences.
+</details>
+<br>
+<details>
+  <summary><b>Q: I don't see the Clean Panels settings in the viewport. What do I do?</b></summary>
+  If you have enabled a new addon (like Blenderkit), it will remove the Clean Panels UI from the header as it puts its own UI there. A simple Blender restart or opening a new file should fix it.
+</details>
+<br>
+<details>
+  <summary><b>Q: My addons are showing up in the wrong tab</b></summary>
+  This is a common issue and can be easily fixed. Some addons, like Auto Rig Pro, use 2 tabs (ARP and Tool for Auto rig pro). The addon can sometimes get confused about which one is the main one, leading to loading the secondary tab as the main one (Tool is the secondary tab in ARP's case).<br>
+  To fix this, you simply need to rename it in the N-Panel renaming section of the addon preferences. <br>
+  For Auto Rig Pro's example, you will see the Auto Rig Pro's tab is set to 'Tool'; simply double click it and set it back to 'ARP', then restart Blender.
+</details>
+<br>
+<details>
+  <summary><b>Q: My 'options' menu disappears after turning on filtering. What do I do?</b></summary>
+  The 'Options' menu is actually part of the tool tab. If you have 'Filter Internal Tabs' enabled in the addon preferences and you have the Tool tab filtered out, the menu will disappear. To fix it, you can either disable 'Filter Internal Tabs' or add 'Tool' to your Addons to exclude list.
+</details>
+<br>
+<details>
+  <summary><b>Q: How can I use my own icons for categories?</b></summary>
+  You can set the custom icons directory in the addon preferences. Make sure your icons are PNG file format and 64p/128p/256p in resolution. <br>
+  After setting the directory, restart Blender, and you will see your icons in the icon picker.
+</details>
+<br>
+<details>
+  <summary><b>Q: Can I copy and paste categories among different sections?</b></summary>
+  You can copy categories between Pie Panels and Dropdown Panes but not from/to N-Panel Filtering categories since N-Panel Filtering is addon name based while PiePanels and Dropdown panels are Tab name based.
+</details>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="DropDownPanels.html" class="btn btn-neutral float-left" title="DropDown Panels" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="NPanelRenaming.html" class="btn btn-neutral float-right" title="N-Panel Renaming" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Preferences.html" class="btn btn-neutral float-left" title="Preferences" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

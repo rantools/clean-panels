@@ -1,0 +1,44 @@
+# Frequently Asked Questions
+
+<details>
+  <summary><b>Q: I don't see the Filtering settings on the top right?</b></summary>
+  By default, the filtering settings are on the left side. You can change it to the right from the quick settings (Gear icon) or the addon preferences.
+</details>
+
+<br>
+
+<details>
+  <summary><b>Q: I don't see the Clean Panels settings in the viewport. What do I do?</b></summary>
+  If you have enabled a new addon (like Blenderkit), it will remove the Clean Panels UI from the header as it puts its own UI there. A simple Blender restart or opening a new file should fix it.
+</details>
+
+<br>
+
+<details>
+  <summary><b>Q: My addons are showing up in the wrong tab</b></summary>
+  This is a common issue and can be easily fixed. Some addons, like Auto Rig Pro, use 2 tabs (ARP and Tool for Auto rig pro). The addon can sometimes get confused about which one is the main one, leading to loading the secondary tab as the main one (Tool is the secondary tab in ARP's case).<br>
+  To fix this, you simply need to rename it in the N-Panel renaming section of the addon preferences. <br>
+  For Auto Rig Pro's example, you will see the Auto Rig Pro's tab is set to 'Tool'; simply double click it and set it back to 'ARP', then restart Blender.
+</details>
+
+<br>
+
+<details>
+  <summary><b>Q: My 'options' menu disappears after turning on filtering. What do I do?</b></summary>
+  The 'Options' menu is actually part of the tool tab. If you have 'Filter Internal Tabs' enabled in the addon preferences and you have the Tool tab filtered out, the menu will disappear. To fix it, you can either disable 'Filter Internal Tabs' or add 'Tool' to your Addons to exclude list.
+</details>
+
+<br>
+
+<details>
+  <summary><b>Q: How can I use my own icons for categories?</b></summary>
+  You can set the custom icons directory in the addon preferences. Make sure your icons are PNG file format and 64p/128p/256p in resolution. <br>
+  After setting the directory, restart Blender, and you will see your icons in the icon picker.
+</details>
+
+<br>
+
+<details>
+  <summary><b>Q: Can I copy and paste categories among different sections?</b></summary>
+  You can copy categories between Pie Panels and Dropdown Panes but not from/to N-Panel Filtering categories since N-Panel Filtering is addon name based while PiePanels and Dropdown panels are Tab name based.
+</details>
