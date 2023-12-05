@@ -113,6 +113,11 @@
   <summary><b>Q: Can I copy and paste categories among different sections?</b></summary>
   You can copy categories between Pie Panels and Dropdown Panes but not from/to N-Panel Filtering categories since N-Panel Filtering is addon name based while PiePanels and Dropdown panels are Tab name based.
 </details>
+<br>
+<details>
+  <summary><b>Q: I'm encountering Children-Parent errors in the console, and some of my panels are missing. What should I do?</b></summary>
+  This issue is commonly encountered but can be easily resolved. Blender requires that Main Panels (Parents) be registered before any sub-panels (children). However, due to limitations in Clean Panels, accurate registration may not occur, resulting in errors. The solution is straightforward. In the addon preferences' N-Panel renaming section, click the 'Click this button for proper ordering of sub-panels'. Please note that you'll need to launch Blender with admin rights to do this. After clicking the button, the order in which the panels are registered on boot will be saved, and Clean Panels will use that order during re-registration.
+</details>
 </section>
 
 
