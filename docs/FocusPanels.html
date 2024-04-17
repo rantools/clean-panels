@@ -87,7 +87,12 @@
 <h1>Focus Panels<a class="headerlink" href="#focus-panels" title="Link to this heading"></a></h1>
 <p>The Focus Panel stands out as one of Clean Panel’s most beloved features, allowing you to open any tab in the N-Panel through a popup list, eliminating the need to navigate the rotated text in the N-Panel.</p>
 <p><strong>Using Focus Panel</strong></p>
-<p>You don’t need to set anything up to start using the Focus Panel. Simply press the shortcut key (default: ALT+J), and a list with all your tabs will appear. Choose the tab you want to view in the N-Panel. If it’s your first time opening a tab from the Focus Panel, you’ll need to manually select the ‘Focused’ tab in the N-Panel, as explained in the <a class="reference internal" href="#how-it-works"><span class="xref myst">How It Works</span></a> section below. Once ‘Focused’ is your active tab, you can open any other tab using the Focus Panel list.</p>
+<p>You don’t need to set anything up to start using the Focus Panel. Simply press the shortcut key (default: ALT+J), and a list with all your tabs will appear. Choose the tab you want to view in the N-Panel.</p>
+<p>If it’s your first time opening a tab from the Focus Panel, you’ll need to manually select the ‘Focused’ tab in the N-Panel, as explained in the <a class="reference internal" href="#how-it-works"><span class="xref myst">How It Works</span></a> section below. Once ‘Focused’ is your active tab, you can open any other tab using the Focus Panel list.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Manually changing to Focused Tab is no longer needed from Blender 4.1 onwards.</p>
+</div>
 <p><img alt="FPUse" src="_images/FPUse.gif" /></p>
 <p><strong>Focus Panel Categories</strong></p>
 <p>If you have too many tabs, making it challenging to find what you’re looking for even from the Focus Panel list, you can organize them into categories.</p>
@@ -100,6 +105,10 @@
 <p><img alt="ShowOnlyUnFiltered" src="_images/ShowOnlyUnFiltered.png" /></p>
 <section id="how-it-works">
 <h2>How It Works?<a class="headerlink" href="#how-it-works" title="Link to this heading"></a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Clean Panels can now change active tab automatically With Blender 4.1.</p>
+</div>
 <p>While you might expect it to be straightforward, Blender’s API doesn’t allow changing the active tab via scripting. So, how does Clean Panels achieve this? Instead of directly switching the active tab, Clean Panels adds a new custom tab called ‘Focused’ and, with some code magic, dynamically changes its content based on the tab selected from the list. This is why you need to manually select the ‘Focused’ tab first before using the Focus Panel list.</p>
 </section>
 </section>
