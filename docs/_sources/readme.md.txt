@@ -1,9 +1,23 @@
 # Changelog
 - [Changelog](#changelog)
-  - [V5.0.0:](#v500)
-  - [V4.0.0:](#v400)
+  - [V6](#v6)
+  - [V5](#v5)
+  - [V4](#v4)
+## V6
 
-## V5.0.0:
+**Improved UI in the Addon Preferences**
+
+The UI has been redesigned for a cleaner look. Settings are now divided into sections, and configurations are organized into tabs.
+
+**Renaming Support for Addons with multiple Tabs:**
+
+You can now rename each tab of an add-on that uses multiple tabs. For example, before this update, you could only rename the main tab in Auto Rig Pro (ARP), but not the secondary tab (Tool). Now, you can assign different names to each tab.
+
+**Option to disable Pie-Panels and Dropdown Panels if you don't use them:**
+
+If you don’t use Pie Panels or Dropdowns, you can now disable them for a cleaner UI. These toggles are hidden under "Show Advanced Options."
+
+## V5
 **Enhanced Image and Node Space Support:**
 Now, Clean Panels offers Filtering and Focused Panel support for both Image/UV and Node space, ensuring a seamless experience in your creative workflow. 
 ![2023-11-20_17-22-37](/assets/2023-11-20_17-22-37.gif)
@@ -30,7 +44,7 @@ Stay up-to-date with Clean Panels effortlessly. The new update check system alig
 
 some minor improvements and bug fixes!
 
-## V4.0.0:
+## V4
 We got rid of the 'DUMP' tab which was confusing a lot of users.
 
 You can now organize your Focus Panel list by creating categories.

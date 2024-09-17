@@ -4,10 +4,10 @@ With Clean Panels, you have the flexibility to rename tabs in the N-Panel to sui
 
 **Getting Started**
 
-1. Enable 'Show Advanced Options' in the addon preferences.
-2. Two new sections will appear: one for N-Panel Reordering and one for N-Panel Renaming.
-3. Navigate to the Renaming section, where you'll find a list of addons with their current tab names.
-4. Simply double-click the tab name to modify it.
-5. Press confirm to apply your changes or restart Blender.
-
-![Renaming](/assets/Renaming.gif)
+1. Navigate to the Renaming tab, where you'll find a list of addons with their current tab names.
+2. Simply double-click the tab name(right) to modify it.
+3. Press confirm to apply your changes or restart Blender.
+```{important}
+Add-ons with multiple tabs (such as Auto-Rig Pro) will appear in the list with separate entries for each tab.
+```
+![ReNamingNew](/assets/ReNamingNew.gif)

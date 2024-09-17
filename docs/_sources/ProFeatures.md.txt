@@ -23,6 +23,17 @@ To load your other addons, press the 'Load Addons' button in the viewport.
 
 ![LoadAddons](/assets/LoadAddons.png)
 
+## Addon Sets Categories
+
+With Clean Panels Pro 6.0 you can now create categories of addons to load.
+**To create a category:**
+ - Click the "Add New Category" button.
+ - Enter a name and click OK.
+ - Choose the addons you want to load with this category.
+
+To load your addon set click the 'Load Addons' Button in the viewport and select the category you want to load.
+![LoadAddons](/assets/LoadAddons.gif)
+
 ```{important}
 If you update your Blender version, you will need to click the enable button again.
 ```
@@ -30,6 +41,10 @@ If you update your Blender version, you will need to click the enable button aga
 
 ## Disabling Delayed Addon Loading
 
+
+```{important}
+Simply uninstalling Clean Panels won’t disable delayed loading. You’ll need to manually click the ‘Disable Delayed Loading’ button; otherwise, Blender won’t load your add-ons at startup.
+```
 Start Blender with admin rights as described above.
 Press the button again (it should say "Disable Delayed loading of addons' this time since it's already enabled).
 Restart Blender.

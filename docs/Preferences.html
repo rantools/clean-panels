@@ -54,6 +54,7 @@
 <li class="toctree-l1"><a class="reference internal" href="ProFeatures.html">Pro Features</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Preferences</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#clean-up-method-for-n-panel">Clean Up method for N-Panel:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hide-pie-panels-dropdowns">Hide Pie Panels/DropDowns</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sort-focus-panel-list-based-on-clicks">Sort Focus Panel list based on clicks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#use-filtering-per-workspace">Use Filtering Per Workspace</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#remove-holder-tab">Remove Holder Tab</a></li>
@@ -63,6 +64,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#experimental-features">Experimental Features</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#use-sticky-popups">Use Sticky Popups</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#enable-disable-addons">Enable/Disable Addons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#import-export-config">Import/Export Config</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#zen-uv-fix">Zen UV Fix</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="FAQs.html">Frequently Asked Questions</a></li>
@@ -94,8 +97,9 @@
              
   <section id="preferences">
 <h1>Preferences<a class="headerlink" href="#preferences" title="Link to this heading"></a></h1>
-<p>This section provides an overview of the options available in the addon preferences.</p>
-<p><img alt="PRefs" src="_images/PRefs.png" /></p>
+<p>This section provides an overview of the options available in the addon preferences.
+<img alt="Preferences" src="_images/Preferences.png" />
+<img alt="Preferences2" src="_images/Preferences2.png" /></p>
 <section id="clean-up-method-for-n-panel">
 <h2>Clean Up method for N-Panel:<a class="headerlink" href="#clean-up-method-for-n-panel" title="Link to this heading"></a></h2>
 <p>Blender’s has an inbuilt way to enable/disable addons for the current workspace using Workspace ‘Filter addons’ but for CP it is an outdated method, and we don’t recommend using it. Most newer features, like Focus Panels, do not work with this method. Therefore, it is advised to use the N-Panel Filtering method.</p>
@@ -103,6 +107,10 @@
 <p class="admonition-title">Warning</p>
 <p>This method will be removed in the next version.</p>
 </div>
+</section>
+<section id="hide-pie-panels-dropdowns">
+<h2>Hide Pie Panels/DropDowns<a class="headerlink" href="#hide-pie-panels-dropdowns" title="Link to this heading"></a></h2>
+<p>Toggle these off if you don’t want to use Pie Panels or DropDowns in your workflow.</p>
 </section>
 <section id="sort-focus-panel-list-based-on-clicks">
 <h2>Sort Focus Panel list based on clicks<a class="headerlink" href="#sort-focus-panel-list-based-on-clicks" title="Link to this heading"></a></h2>
@@ -147,6 +155,15 @@
 <section id="enable-disable-addons">
 <h2>Enable/Disable Addons<a class="headerlink" href="#enable-disable-addons" title="Link to this heading"></a></h2>
 <p>This popup allows you to view all your addons and enable/disable them from one window.</p>
+</section>
+<section id="import-export-config">
+<h2>Import/Export Config<a class="headerlink" href="#import-export-config" title="Link to this heading"></a></h2>
+<p><img alt="IEConfig" src="_images/IEConfig.png" />
+Use these buttons to export and import Clean Panels configurations as a JSON file. The “Import Backup Config” works like “Import Config” but directly opens the backup configs folder. Clean Panels automatically backs up the configuration periodically.</p>
+</section>
+<section id="zen-uv-fix">
+<h2>Zen UV Fix<a class="headerlink" href="#zen-uv-fix" title="Link to this heading"></a></h2>
+<p>The Zen UV add-on requires one of Blender’s internal panels to function properly. If the ‘Filter Internal Tabs’ option is enabled, this panel might be filtered out, leading to errors. Enabling this option ensures the panel remains available. This is only necessary if you’re using ‘Filter Internal Tabs.’</p>
 </section>
 </section>
 

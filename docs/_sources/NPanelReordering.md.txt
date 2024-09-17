@@ -6,13 +6,11 @@ Clean Panels provides you with the flexibility to rearrange your tabs in the N-P
 
 
 To get started, follow these steps:
-1. Enable 'Show Advanced Options' in the addon preferences.
-2. Once activated, two new sections will appear: one for N-Panel Reordering and another for N-Panel Renaming.
-3. Navigate to the Reordering section, where you'll find a list of addons.
-4. Next to the list, you'll find two arrows (up and down) that allow you to move the selected tab upward or downward.
-5. Press "Confirm" to apply your changes, or simply restart Blender.
+1. Navigate to the Reordering Tab, where you'll find a list of addons.
+2. Next to the list, you'll find two arrows (up and down) that allow you to move the selected tab upward or downward.
+3. Press "Confirm" to apply your changes, or simply restart Blender.
 
-![ReOrdering](/assets/ReOrdering.gif)
+![ReOrderingNew](/assets/ReOrderingNew.gif)
 
 ## Sorting per category
 

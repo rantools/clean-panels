@@ -4,7 +4,12 @@ The Focus Panel stands out as one of Clean Panel's most beloved features, allowi
 
 **Using Focus Panel**
 
-You don't need to set anything up to start using the Focus Panel. Simply press the shortcut key (default: ALT+J), and a list with all your tabs will appear. Choose the tab you want to view in the N-Panel. If it's your first time opening a tab from the Focus Panel, you'll need to manually select the 'Focused' tab in the N-Panel, as explained in the [How It Works](#how-it-works) section below. Once 'Focused' is your active tab, you can open any other tab using the Focus Panel list.
+You don't need to set anything up to start using the Focus Panel. Simply press the shortcut key (default: ALT+J), and a list with all your tabs will appear. Choose the tab you want to view in the N-Panel. 
+
+If it's your first time opening a tab from the Focus Panel, you'll need to manually select the 'Focused' tab in the N-Panel, as explained in the [How It Works](#how-it-works) section below. Once 'Focused' is your active tab, you can open any other tab using the Focus Panel list.
+```{note} 
+Manually changing to Focused Tab is no longer needed from Blender 4.1 onwards.
+```
 
 ![FPUse](/assets/FPUse.gif)
 
@@ -25,5 +30,7 @@ By default, the Focus Panel list shows all available tabs. If you want the Focus
 ![ShowOnlyUnFiltered](/assets/ShowOnlyUnFiltered.png)
 
 ## How It Works?
-
+```{note} 
+Clean Panels can now change active tab automatically With Blender 4.1. So you can ignore this explaination.
+```
 While you might expect it to be straightforward, Blender's API doesn't allow changing the active tab via scripting. So, how does Clean Panels achieve this? Instead of directly switching the active tab, Clean Panels adds a new custom tab called 'Focused' and, with some code magic, dynamically changes its content based on the tab selected from the list. This is why you need to manually select the 'Focused' tab first before using the Focus Panel list.

@@ -1,7 +1,7 @@
 # Preferences
 This section provides an overview of the options available in the addon preferences.
-
-![PRefs](/assets/PRefs.png)
+![Preferences](/assets/Preferences.png)
+![Preferences2](/assets/Preferences2.png)
 
 ## Clean Up method for N-Panel:
 
@@ -10,6 +10,10 @@ Blender's has an inbuilt way to enable/disable addons for the current workspace 
 ```{warning}
 This method will be removed in the next version.
 ```
+
+## Hide Pie Panels/DropDowns
+Toggle these off if you don't want to use Pie Panels or DropDowns in your workflow.
+
 ## Sort Focus Panel list based on clicks
 
 By default, the Focus Panel list is sorted alphabetically, or if you are using Focus Panel Categories, they will be sorted by the order given in those categories. Enable this option if you want your Focus Panel list to be sorted based on the panels you use most often.
@@ -55,3 +59,10 @@ It's currently not possible to keep them open after clicking outside, due to a B
 ## Enable/Disable Addons
 
 This popup allows you to view all your addons and enable/disable them from one window.
+
+## Import/Export Config
+![IEConfig](/assets/IEConfig.png)
+Use these buttons to export and import Clean Panels configurations as a JSON file. The "Import Backup Config" works like "Import Config" but directly opens the backup configs folder. Clean Panels automatically backs up the configuration periodically.
+
+## Zen UV Fix
+The Zen UV add-on requires one of Blender's internal panels to function properly. If the 'Filter Internal Tabs' option is enabled, this panel might be filtered out, leading to errors. Enabling this option ensures the panel remains available. This is only necessary if you're using 'Filter Internal Tabs.'
