@@ -48,7 +48,8 @@ Simply uninstalling Clean Panels won’t disable delayed loading. You’ll need 
 Start Blender with admin rights as described above.
 Press the button again (it should say "Disable Delayed loading of addons' this time since it's already enabled).
 Restart Blender.
-
+## Load Addons with Filtering Categories
+If you want to load add-ons dynamically based on your Filtering Categories, you can enable this option. The first time you activate a filtering category, any add-ons from that category that haven't been loaded yet (from the load-on-boot list or another category) will be loaded. This might cause a slight delay the first time you enable a category, but after that, performance will be as fast as usual. The 'Load Add-ons' button will still be available for manual use.
 ## Export Addons List
 
 ![EAL](/assets/EAL.png)
